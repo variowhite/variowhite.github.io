@@ -21,8 +21,8 @@ var APP_TITLES = [
 ];
 
 var LANDING_HREFS = [
-                            //"https://variored.github.io/site1/",
-                            //"https://variored.github.io/site2/"
+                            "https://variored.github.io/site1/",
+                            "https://variored.github.io/site2/"
 ];
 var BLOG_HREFS = [
                             //"https://variored.github.io/site1/",

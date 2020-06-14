@@ -1,0 +1,27 @@
+main{
+    width: 60%;
+    height: 400px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    overflow: hidden;
+    display: grid;
+    
+
+    #main__grid{
+        display: grid;
+        grid-template-columns: 25% auto;
+
+        .main__item{
+            padding: 15px;
+        }
+        .main__item_left{
+            background-color: rgba(#fff, 0.98);
+        }
+        .main__item_right{
+            background-color: rgba(#fff, 0.94);
+        }
+    }
+}

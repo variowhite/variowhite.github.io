@@ -3,9 +3,26 @@ var COUNT_BLOG              = 0;
 var COUNT_SHOP              = 0;
 var COUNT_APP               = 0;
 
+var LANDING_TITLES = [
+                            "PREMIUM BUSINES TEMPLATE",
+                            "MOBILE APPLICATION LANDING TEMPLATE"
+];
+var BLOG_TITLES = [
+                            //"PREMIUM_BUSINES_TEMPLATE",
+                            //"MOBILE APPLICATION LANDING TEMPLATE"
+];
+var SHOP_TITLES = [
+                            //"PREMIUM_BUSINES_TEMPLATE",
+                            //"MOBILE APPLICATION LANDING TEMPLATE"
+];
+var APP_TITLES = [
+                            //"PREMIUM_BUSINES_TEMPLATE",
+                            //"MOBILE APPLICATION LANDING TEMPLATE"
+];
+
 var LANDING_HREFS = [
-                            "https://variored.github.io/site1/",
-                            "https://variored.github.io/site2/"
+                            //"https://variored.github.io/site1/",
+                            //"https://variored.github.io/site2/"
 ];
 var BLOG_HREFS = [
                             //"https://variored.github.io/site1/",

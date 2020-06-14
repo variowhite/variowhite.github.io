@@ -1,3 +1,5 @@
+$NAV_HEIGHT: 50px;
+
 main{
     width: 60%;
     height: 400px;
@@ -19,9 +21,54 @@ main{
         }
         .main__item_left{
             background-color: rgba(#fff, 0.98);
+            padding-top: 70px;
+            
+
+            .main__nav-item{
+                display: grid;
+                grid-template-columns: 64px auto;
+                width: 100%;
+
+                &:hover{
+                    background-color: #eee;
+                }
+
+                .nav-item__ico_landing{
+                    background-image: url("ASSETS/IMG/NAV/nav_landing.png");
+                }
+                .nav-item__ico_blog{
+                    background-image: url("ASSETS/IMG/NAV/nav_blog.png");
+                }
+                .nav-item__ico_shop{
+                    background-image: url("ASSETS/IMG/NAV/nav_shop.png");
+                }
+                .nav-item__ico_android{
+                    background-image: url("ASSETS/IMG/NAV/nav_android.png");
+                }
+
+                .nav-item__ico{
+                    width: $NAV_HEIGHT;
+                    height: $NAV_HEIGHT;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    
+                }
+                .nav-item__text{
+                    display: inline-block;
+                    text-align: left;
+                    line-height: $NAV_HEIGHT;
+                    font-size: 20px;
+                    padding-left: 20px;
+                    font-family: sans-serif;
+                }
+
+            }
+
         }
         .main__item_right{
             background-color: rgba(#fff, 0.94);
+            display: grid;
+            overflow: scroll;
         }
     }
 }

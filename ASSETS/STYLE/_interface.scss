@@ -1,7 +1,10 @@
 body{
+    background-image: url("ASSETS/IMG/wrapper-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 0px;
     margin: 0px;
-    //overflow: hidden;
+    overflow: hidden;
     font-family: sans-serif;
 }
 a{

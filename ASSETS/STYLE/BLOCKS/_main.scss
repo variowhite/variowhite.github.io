@@ -2,7 +2,7 @@ $NAV_HEIGHT: 50px;
 
 main{
     width: 60%;
-    height: 400px;
+    height: 600px;
     position: relative;
     left: 50%;
     top: 50%;
@@ -66,8 +66,44 @@ main{
         }
         .main__item_right{
             background-color: rgba(#fff, 0.94);
-            display: grid;
-            overflow: scroll;
+
+            .product-frame{
+                height: 100%;
+                overflow: hidden;
+
+                .product-frame__title{
+                    padding: 15px;
+                    font-size: 28px;
+                }
+                
+                .product-frame__grid{
+                    overflow: auto;
+                    position: relative;
+                    display: grid;
+                    row-gap: 10%;
+                    column-gap: 5%;
+                    grid-template-columns: repeat(4, 1fr);
+
+                    >a{
+                        display: inline-block;
+                        width: 150px;
+                        height: 170px;
+                    
+                        >img{
+                            transition: 0.5s box-shadow;
+                        }
+                        >img:hover{
+                            box-shadow: 0px 0px 10px #aaa;
+                            transition: 0.5s box-shadow;
+                        }
+
+                    }
+
+                    .site__preview{
+                        border: 1px solid #bbb;
+                    }
+                }
+            }
         }
     }
 }

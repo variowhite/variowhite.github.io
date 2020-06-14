@@ -14,6 +14,11 @@ function GenerateLanding(){
         siteImage.classList.add("site_preview");
         siteImage.src="ASSETS/IMG/SITES/LANDING/landing_" + i + ".jpg";
         siteFrame.appendChild(siteImage);
+        let siteTitle = document.createElement('span');
+        siteTitle.classList.add("site__title");
+        siteTitle.innerText=LANDING_TITLES[i-1];
+        siteFrame.appendChild(siteImage);
+        siteFrame.appendChild(siteTitle);
         grid_landing.appendChild(siteFrame);
     }
 }
@@ -26,6 +31,10 @@ function GenerateBlog(){
         let siteImage = document.createElement('img');
         siteImage.classList.add("site_preview");
         siteImage.src="ASSETS/IMG/SITES/BLOG/blog_" + i + ".jpg";
+        let siteTitle = document.createElement('span');
+        siteTitle.classList.add("site__title");
+        siteTitle.innerText=BLOG_TITLES[i-1];
+        siteFrame.appendChild(siteImage);
         siteFrame.appendChild(siteImage);
         grid_blog.appendChild(siteFrame);
     }
@@ -39,6 +48,10 @@ function GenerateShop(){
         let siteImage = document.createElement('img');
         siteImage.classList.add("site_preview");
         siteImage.src="ASSETS/IMG/SITES/SHOP/shop_" + i + ".jpg";
+        let siteTitle = document.createElement('span');
+        siteTitle.classList.add("site__title");
+        siteTitle.innerText=SHOP_TITLES[i-1];
+        siteFrame.appendChild(siteImage);
         siteFrame.appendChild(siteImage);
         grid_shop.appendChild(siteFrame);
     }
@@ -52,6 +65,10 @@ function GenerateApp(){
         let siteImage = document.createElement('img');
         siteImage.classList.add("site_preview");
         siteImage.src="ASSETS/IMG/SITES/APP/APP_" + i + ".jpg";
+        let siteTitle = document.createElement('span');
+        siteTitle.classList.add("site__title");
+        siteTitle.innerText=APP_TITLES[i-1];
+        siteFrame.appendChild(siteImage);
         siteFrame.appendChild(siteImage);
         grid_app.appendChild(siteFrame);
     }

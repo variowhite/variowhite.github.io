@@ -1,11 +1,12 @@
-var COUNT_LANDING           = 2;
+var COUNT_LANDING           = 3;
 var COUNT_BLOG              = 0;
 var COUNT_SHOP              = 0;
 var COUNT_APP               = 0;
 
 var LANDING_TITLES = [
                             "PREMIUM BUSINES TEMPLATE",
-                            "MOBILE APPLICATION LANDING TEMPLATE"
+                            "MOBILE APPLICATION LANDING TEMPLATE",
+                            "SARAJEVO"
 ];
 var BLOG_TITLES = [
                             //"PREMIUM_BUSINES_TEMPLATE",
@@ -22,7 +23,8 @@ var APP_TITLES = [
 
 var LANDING_HREFS = [
                             "https://variored.github.io/site1/",
-                            "https://variored.github.io/site2/"
+                            "https://variored.github.io/site2/",
+                            "https://variored.github.io/site3/"
 ];
 var BLOG_HREFS = [
                             //"https://variored.github.io/site1/",

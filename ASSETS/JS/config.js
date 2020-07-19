@@ -22,21 +22,21 @@ var APP_TITLES = [
 ];
 
 var LANDING_HREFS = [
-                            "https://variored.github.io/site1/",
-                            "https://variored.github.io/site2/",
-                            "https://variored.github.io/site3/"
+                            "https://variowhite.github.io/site1/",
+                            "https://variowhite.github.io/site2/",
+                            "https://variowhite.github.io/site3/"
 ];
 var BLOG_HREFS = [
-                            //"https://variored.github.io/site1/",
-                            //"https://variored.github.io/site2/"
+                            //"https://variowhite.github.io/site1/",
+                            //"https://variowhite.github.io/site2/"
 ];
 var SHOP_HREFS = [
-                            //"https://variored.github.io/site1/",
-                            //"https://variored.github.io/site2/"
+                            //"https://variowhite.github.io/site1/",
+                            //"https://variowhite.github.io/site2/"
 ];
 var APP_HREFS = [
-                            //"https://variored.github.io/site1/",
-                            //"https://variored.github.io/site2/"
+                            //"https://variowhite.github.io/site1/",
+                            //"https://variowhite.github.io/site2/"
 ];
 
 //33% in browser
